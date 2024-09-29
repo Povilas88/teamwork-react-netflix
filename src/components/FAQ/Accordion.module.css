@@ -1,0 +1,50 @@
+.FAQContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 85%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.FAQH3 {
+    background-color: #474747;
+    color: white;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.FAQH3:hover {
+    background-color: #919191;
+}
+
+.FAQP {
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: #474747;
+    margin: 0;
+    color: white;
+}
+
+.FAQP {
+    transition: max-height 0.2s ease-out;
+}
+
+.h2Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.h2Container h2 {
+    padding: 10px;
+    margin-left: -8px;
+}
+
+@media (min-width: 1400px) {
+    .FAQContainer {
+        max-width: 60%;
+    }
+}
